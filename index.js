@@ -18,8 +18,7 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 // Fix CORS preflight for all routes and methods
-app.options('*', cors(corsOptions));
-
+app.options('/{*splat}', cors(corsOptions));
 
 // Middleware setup
 app.use(express.json());
