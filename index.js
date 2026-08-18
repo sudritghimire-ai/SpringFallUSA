@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 
 // CORS configuration - allow only your frontend origin
 const corsOptions = {
-  origin: 'https://springfall-usa.vercel.app',
+  origin: 'https://nsatxst-usa.vercel.app',
   credentials: true,
   allowedHeaders: ['Content-Type', 'Authorization'],
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],  // PATCH added
